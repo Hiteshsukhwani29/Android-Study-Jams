@@ -16,7 +16,7 @@ import com.hitesh.genie.adapter.quotesAdapter
 
 class MainActivity : AppCompatActivity() {
 
-    /*lateinit var bottomNavigationView: BottomNavigationView
+    lateinit var bottomNavigationView: BottomNavigationView
 
     private lateinit var viewPager: ViewPager
 
@@ -24,13 +24,13 @@ class MainActivity : AppCompatActivity() {
     lateinit var thoughts:Thoughts
 
     lateinit var menuItem: MenuItem
-*/
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        /*viewPager = findViewById<ViewPager>(R.id.viewpager)
+        viewPager = findViewById<ViewPager>(R.id.viewpager)
 
         bottomNavigationView = findViewById<BottomNavigationView>(R.id.bottom_navigation);
 
@@ -66,11 +66,11 @@ class MainActivity : AppCompatActivity() {
 
             override fun onPageScrollStateChanged(state: Int) {}
         })
-*/
-        supportFragmentManager.beginTransaction()
-            .replace(R.id.fragment_container, Quotes())
-            .commit()
-/*
+
+//        supportFragmentManager.beginTransaction()
+//            .replace(R.id.fragment_container,Quotes())
+//            .commit()
+
         setupViewPager(viewPager);
     }
 
@@ -80,7 +80,6 @@ class MainActivity : AppCompatActivity() {
 
 
 
-    }*/
-
     }
+
 }
