@@ -1,5 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
+    <item
+        android:id="@+id/nav_quotes"
+        android:icon="@drawable/ic_baseline_delete_24"
+        android:title="Quotes"
+        />
+
+    <item
+        android:id="@+id/nav_thoughts"
+        android:icon="@drawable/ic_baseline_delete_24"
+        android:title="Thoughts"
+        />
+
+    <item
+        android:id="@+id/nav_yoga"
+        android:icon="@drawable/ic_baseline_delete_24"
+        android:title="Yoga"
+        />
+
+    <item
+        android:id="@+id/nav_task"
+        android:icon="@drawable/ic_baseline_delete_24"
+        android:title="Tasks"
+        />
+
+    <item
+        android:id="@+id/nav_networking"
+        android:icon="@drawable/ic_baseline_delete_24"
+        android:title="Networking"
+        />
 
 </menu>

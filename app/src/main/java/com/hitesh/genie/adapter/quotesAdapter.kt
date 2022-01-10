@@ -19,11 +19,10 @@ class quotesAdapter(private val mList: List<quotesModel>) : RecyclerView.Adapter
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
 
-        val quotesModel = mList[position]
+        val list : quotesModel = mList[position]
 
-        holder.quote.text = quotesModel.getQuote()
-        holder.quote_author.text = quotesModel.getQuoteAuthor()
-
+        holder.quote.text = list.quote
+        holder.quote_author.text = list.author
     }
 
     override fun getItemCount(): Int {

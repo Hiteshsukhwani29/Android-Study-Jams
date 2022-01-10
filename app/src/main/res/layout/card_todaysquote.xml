@@ -34,7 +34,7 @@ failure is the ability to take action" />
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/todays_quote"
-            android:textColor="#4285F4"
+            android:textColor="@color/blue"
             android:fontFamily="@font/lato_black"
             android:textSize="16sp"
             android:layout_alignParentRight="true"
