@@ -12,14 +12,13 @@ This will help them inculcate habits such as gratefulness, and time management.
 These habits help in living a happy and contentful life. This will also help them transform their lives into a more managed format and keep them mentally occupied.
 
 Libraries used:
-1. Fragments
-2. Room
-3. Recycler view
-4. Firebase sdk
-5. Firestore
-6. Picasso
-7. ViewModel
-8. Bottom Navigation
+1. Bottom Navigation View
+2. Room database
+4. Recycler view
+5. Firebase sdk
+6. Firestore
+7. Picasso
+8. ViewModel
 
 Layouts used:
 1. Relative Layout
