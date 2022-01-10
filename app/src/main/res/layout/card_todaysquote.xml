@@ -4,7 +4,7 @@
     android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     app:cardCornerRadius="10dp"
-    android:layout_margin="25dp">
+    android:layout_margin="10dp">
 
     <RelativeLayout
         android:layout_width="wrap_content"
@@ -40,6 +40,7 @@ failure is the ability to take action" />
             android:layout_alignParentRight="true"
             android:layout_marginRight="10dp"
             android:layout_marginBottom="10dp"
+            android:layout_marginTop="5dp"
             android:text="- Alexander Graham Bell" />
 
     </RelativeLayout>

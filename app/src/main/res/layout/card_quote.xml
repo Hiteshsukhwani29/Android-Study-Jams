@@ -1,36 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="10">
 
     <RelativeLayout
         android:id="@+id/quote_box"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
-    <TextView
-        android:id="@+id/quote"
-        android:layout_width="match_parent"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:textSize="16sp"
-        android:text="If you only knew the magnificence of the 3, 6,
-and 9, then you would have a key to the gy
-universe."/>
+        android:layout_weight="9"
+        android:layout_alignParentLeft="true"
+        android:layout_alignLeft="@+id/like_icon_quote"
+        >
 
-    <TextView
-        android:id="@+id/quote_author"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/quote"
-        android:layout_marginTop="2dp"
-        android:text="Nikola Tesla"
-        android:fontFamily="@font/lato_black"/>
+        <TextView
+            android:id="@+id/quote"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="If you only knew the magnificence of the 3, 6,
+and 9, then you would have a key to the gy
+universe."
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/quote_author"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/quote"
+            android:layout_marginTop="2dp"
+            android:fontFamily="@font/lato_black"
+            android:text="Nikola Tesla" />
 
     </RelativeLayout>
 
     <ImageView
-        android:layout_width="24dp"
-        android:layout_height="24dp"
-        android:layout_toRightOf="@+id/quote_box"
-        android:layout_centerVertical="true"/>
+        android:id="@+id/like_icon_quote"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="center_vertical"
+        android:layout_marginRight="5dp"
+        android:src="@drawable/ic_favorite_grey_24dp" />
 
-</RelativeLayout>
+</LinearLayout>

@@ -3,9 +3,18 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/hites/AndroidStudioProjects/Genie/app/src/main/res/drawable/ic_baseline_delete_24.xml" value="0.11203703703703703" />
+        <entry key="..\:/Users/hites/AndroidStudioProjects/Genie/app/src/main/res/drawable/ic_favorite_black_24dp.xml" value="0.11203703703703703" />
+        <entry key="..\:/Users/hites/AndroidStudioProjects/Genie/app/src/main/res/drawable/ic_favorite_colored_24dp.xml" value="0.11203703703703703" />
+        <entry key="..\:/Users/hites/AndroidStudioProjects/Genie/app/src/main/res/drawable/ic_favorite_grey_24dp.xml" value="0.11203703703703703" />
+        <entry key="..\:/Users/hites/AndroidStudioProjects/Genie/app/src/main/res/drawable/ic_launcher_background.xml" value="0.10833333333333334" />
+        <entry key="..\:/Users/hites/AndroidStudioProjects/Genie/app/src/main/res/layout/activity_main.xml" value="0.1125" />
+        <entry key="..\:/Users/hites/AndroidStudioProjects/Genie/app/src/main/res/layout/bottomsheet_add_thought.xml" value="0.1125" />
         <entry key="..\:/Users/hites/AndroidStudioProjects/Genie/app/src/main/res/layout/card_quote.xml" value="0.11614583333333334" />
         <entry key="..\:/Users/hites/AndroidStudioProjects/Genie/app/src/main/res/layout/card_todaysquote.xml" value="0.11979166666666667" />
         <entry key="..\:/Users/hites/AndroidStudioProjects/Genie/app/src/main/res/layout/fragment_quotes.xml" value="0.1234375" />
+        <entry key="..\:/Users/hites/AndroidStudioProjects/Genie/app/src/main/res/layout/fragment_thoughts.xml" value="0.11614583333333334" />
+        <entry key="..\:/Users/hites/AndroidStudioProjects/Genie/app/src/main/res/menu/bottom_nav_menu.xml" value="0.12708333333333333" />
       </map>
     </option>
   </component>
